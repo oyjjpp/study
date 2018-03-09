@@ -1,7 +1,8 @@
 {
     "name":"oyjjpp/study",
     "require":{
-        "monolog/monolog":"1.0.*"
+        "monolog/monolog":"1.0.*",
+        "phpunit/phpunit": "4.5.*"
     },
     "autoload":{
         "psr-4":{
