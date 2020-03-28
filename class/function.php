@@ -9,7 +9,9 @@ class Func
         echo 'Test';
     }
 }
-
+$name = 'ouyangjun';
+$index = 10;
+$arr = array('this', 'is' ,'array');
 $func = new Func();
 $func->test();
 var_dump(method_exists($func,'Test'));
@@ -21,9 +23,10 @@ function get_param(){
     };
     echo "<pre>";
     echo $str;
+    echo "<br>";
     $func("This is test");
     echo $str;
     var_dump($func instanceof Closure);
-    var_dump(get_param instanceof Closure);
+    //var_dump(get_param instanceof Closure);
 }
 get_param();
