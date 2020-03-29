@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * @desc 创建者模式——单例模式
+ */
 class Singleton{
     /**
      * @desc 自身实例
